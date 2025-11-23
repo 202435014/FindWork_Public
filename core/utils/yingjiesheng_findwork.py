@@ -23,7 +23,7 @@ def yjs_run_automation():
     # page.set_viewport_size({"width": 1000, "height": 400})
     page.goto("https://q.yingjiesheng.com/pc/searchintern")
     print(f"请稍等")
-    input('登录')
+    
     page.wait_for_timeout(1000)
     print(page.title())  # 打印网页标题栏
 
